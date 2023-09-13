@@ -1,15 +1,15 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <Map msg="Welcome to Your Vue.js App"/>
+  <MapView msg="Welcome to Your Vue.js App"/>
 </template>
 
 <script>
-import Map from './components/Map.vue'
+import MapView from './components/MapVIew'
 
 export default {
   name: 'App',
   components: {
-    Map
+    MapView
   }
 }
 </script>
